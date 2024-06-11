@@ -31,7 +31,7 @@ function createBot() {
     bot.loadPlugin(cmd);
 
     bot.on('login', function() {
-        console.log("Logged In");
+    
         connected = true;
         
     });
